@@ -1,7 +1,7 @@
 package com.Hotel_Reservation.java;
 
 public class Hotel {
-	 public String hotelName;
+	  public String hotelName;
 	    public int weekdayRateForRegular;
 	    public int weekendRateForRegular;
 	    public int weekdayRateForRewarder;
