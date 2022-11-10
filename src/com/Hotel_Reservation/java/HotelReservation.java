@@ -18,7 +18,7 @@ public class HotelReservation {
 	        return hotelDetails.add(hotel);
 	    }
 	    public void getMinPriceHotel() {
-	        Hotel cheapestHotel = hotelDetails.stream().min(Comparator.comparingInt(Hotel::getWeekdayRateForRegular)).orElseThrow();
+	        Hotel cheapestHotel = hotelDetails.stream().min(Comparator.comparing(Hotel::getWeekdayRateForRegular)).orElseThrow();
 	        System.out.println(cheapestHotel);
 	    }
 
